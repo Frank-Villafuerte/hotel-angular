@@ -1,0 +1,33 @@
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.cabecera{
+    display: inline-flex;
+    width: 100%;
+    background-image: url("../../assets/temp/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.botones{
+    display: inline-block;
+    width: 60%;
+    margin-inline-start: 40%;
+    height: 40px;
+}
+a.boton {
+    
+    display: inline-block;
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    margin-top: 5%;
+}
+a.boton:hover{
+    color: rgb(3, 207, 129);
+    text-decoration-line: underline;
+}
