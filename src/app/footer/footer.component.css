@@ -1,0 +1,16 @@
+.footer{
+    background-color: aquamarine;
+    padding-bottom: 40px;
+    display: flex;
+}
+.navegacion, .extras{
+    display: grid;
+}
+.extras{
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+.footer div{
+    width: 40%;
+    margin-left: 40px;
+}
