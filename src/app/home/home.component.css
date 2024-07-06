@@ -1,0 +1,39 @@
+h1,h2,h3,h4{
+    text-align: center;
+}
+h1,h4{
+    color: white;
+}
+h3{
+    color: green;
+}
+.slogan{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.icono{
+    width: 90%;
+    height: 90%;
+}
+.attr{
+    display: inline-flex;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.elemento{
+    width: 15%;
+    margin-left: 4%;
+}
+.elemento p{
+    text-align: center;
+}
+.home{
+    margin-top: 100px;
+}
+.bienvenida{
+    background-color: white;
+    padding: 60px;
+}

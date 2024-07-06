@@ -5,16 +5,13 @@
 .cabecera{
     display: inline-flex;
     width: 100%;
-    background-image: url("../../assets/temp/fondo.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 600px;
+    
+    height: 100%;
 }
 .botones{
     display: inline-block;
-    width: 60%;
-    margin-inline-start: 40%;
+    width: 70%;
+    margin-inline-start: 30%;
     height: 40px;
 }
 a.boton {
@@ -23,7 +20,7 @@ a.boton {
     margin-left: 10px;
     color: #fff;
     text-decoration: none;
-    width: 100px;
+    width: 120px;
     text-align: center;
     margin-top: 5%;
 }
