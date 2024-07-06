@@ -21,12 +21,21 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/app/assets",
-              "src/app/assets/favicon.png",
               {
                 "glob": "**/*",
-                "input": "public"
-              }
+                "input": "src/assets/",
+                "output": "/assets/"
+              },
+              {
+                "glob": "favicon.png",
+                "input": "src/",
+                "output": "/"
+              } 
+              //,
+              //{
+               // "glob": "**/*",
+              //  "input": "public"
+              //}
             ],
             "styles": [
               "src/styles.css"
